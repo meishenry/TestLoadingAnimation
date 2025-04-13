@@ -5,13 +5,14 @@ body {
 .loading1 {
     width: 200px;
     height: 200px;
-    position: fixed;
+    position: relative;
 }
 
 .circle1,
 .circle-small1{
-    position: fixed;
-    margin: 400px;
+    position: absolute;
+    left: 500px;
+    top: 500px;
     transform: translate(-50%,-50%);
     border: 15px solid white;
     border-radius: 100rem;
@@ -40,9 +41,8 @@ body {
 .circle2,
 .circle-small2{
     position: fixed;
-    margin: 400px;
-    margin-left: 410px;
-    margin-top: 405px; 
+    left: 520px;
+    top: 515px;
     transform: translate(-50%,-50%);
     border: 13px solid rgb(46, 40, 40);
     border-radius: 100rem;
