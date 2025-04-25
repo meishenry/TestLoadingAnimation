@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    overflow: hidden;
+
 }
 
 .background {
@@ -97,13 +97,31 @@ h1 {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+.button2:active{
+    background-color: white; 
+    color: black;
+    font-size: 27px;
+} 
+
 .button3:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+.button3:active{
+    background-color: white; 
+    color: black;
+    font-size: 27px;
+} 
+
 .button4:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+.button4:active{
+    background-color: white; 
+    color: black;
+    font-size: 27px;
+} 
 
 .text {
     position: relative;
@@ -115,6 +133,19 @@ h1 {
 }
 
 .ul-personal {
+    position: absolute;
+    width: 100vh;
+    height: 400px;
+    color: white;
+    justify-items: left;
+    font-family: montserrat;
+    letter-spacing: 2px;
+    line-height: 120px;
+    top: 60px;
+    left: 30px;
+}
+
+.ul-education {
     position: absolute;
     width: 100vh;
     height: 400px;
