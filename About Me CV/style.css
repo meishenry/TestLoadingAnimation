@@ -1,0 +1,10 @@
+body{
+    background-color: #001f3d;
+    z-index: -1;
+}
+
+.photo {
+    width: 33%;
+    height: 100vh;
+    background-image: URL("file:///E:/Javascript/AboutMeCV/ profile.png");
+}
